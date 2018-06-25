@@ -33,7 +33,47 @@
 }
 
 #list-cats button {
-    width: 10rem;
+    width: 8rem;
     height: 1.8rem;
     margin: 1rem 0;
+}
+
+#btn-admin {
+    width: 8rem;
+    height: 1.6rem;
+    margin: 4rem 0 0 0;
+}
+
+.btn-admin {
+    background: yellowgreen;
+    font-weight: 700;
+}
+
+.form {
+    display: table;
+}
+
+#form-admin {
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: left;
+}
+
+input[type=number] {
+    width: 3rem;
+}
+
+.form-element {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 1rem;
 }
